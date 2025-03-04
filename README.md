@@ -1,67 +1,72 @@
-# Quran Majeed - Audio Recitation with Urdu Translation
+# Islamic Resources Hub
 
-## 🌙 Overview
+## 🕌 Overview
 
-This Streamlit app provides an easy way to listen to the Quran with Urdu translation. Perfect for those who want to understand the meaning of the Quran but cannot read Arabic or Urdu, or for visually impaired Muslims who wish to benefit from the Quran's teachings.
+Islamic Resources Hub is a comprehensive web application built with Streamlit that provides a centralized platform for various Islamic resources. The application offers a seamless, user-friendly interface for accessing the Holy Quran, prayer times, duas, naats, and other essential Islamic content.
 
 ## ✨ Features
 
-- **Complete Quran**: All 30 Paras (Juz) available for listening
-- **Audio Recitation**: Beautiful Quran recitation by Sheikh Mishary Rashid Alafasy
-- **Urdu Translation**: Clear translation by Molana Muhammad Taqi Usmani
-- **Urdu Voice**: Narration by Hafiz Afzal Mishtiaq
-- **User-Friendly Interface**: Easy navigation between different Paras
-- **Audio Controls**: Playback speed adjustment, volume control, and download capability
-- **Mobile Responsive**: Works well on both desktop and mobile devices
+- **📚 Quran Browser**: Read the Holy Quran with translations in multiple languages including Urdu and English
+- **🎧 Quran Audio**: Listen to beautiful recitations by renowned reciters
+- **🕋 Prayer Times**: Get accurate prayer times for your location with multiple calculation methods
+- **🤲 Duas Collection**: Comprehensive collection of daily duas with Arabic text, transliteration, and translations
+- **📿 Durood Shareef**: Collection of Durood Shareef with Arabic text, transliteration, and translations
+- **🎵 Naats Collection**: Listen to beautiful naats in praise of Prophet Muhammad ﷺ
+- **📋 Asma Al-Husna**: Explore the 99 names of Allah with meanings and descriptions
+- **📒 Names of Muhammad ﷺ**: Discover the beautiful names and titles of Prophet Muhammad ﷺ
+- **📱 Responsive Design**: Beautiful, animated, and responsive user interface for all devices
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Python 3.12 or higher
+- Python 3.7 or higher
 - Streamlit
-- Pandas
+- Other dependencies listed in `requirements.txt`
 
 ### Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Riaz-Hussain-Saifi/Python-Quran-App.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
    cd Python-Quran-App
    ```
 
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the Streamlit app:
+3. Run the Streamlit app:
    ```bash
-   streamlit run main.py
+   streamlit run islamic_resources.py
    ```
 
 ## 📖 How to Use
 
-1. **Browse Paras**: Scroll through the grid to find the Para you want to listen to
-2. **Play Audio**: Click the "Play" button beneath any Para card
-3. **Audio Controls**: 
-   - Use the built-in player to pause, adjust volume, or change playback speed
-   - Right-click on the player to download the audio
-4. **Stop Audio**: Click the "Stop Audio" button to stop the current Para before playing another
+### Home Page
+The home page provides an overview of all available resources and features a hero section with quick navigation links. It also displays current prayer times based on your location and a randomly selected Dua and Naat.
 
-## 📝 Note
+### Quran Browser
+The Juz Browser allows you to read the Holy Quran by juz (para) with Arabic text and translations. You can select different translations and view verses by surah or all at once.
 
-This app requires an internet connection to stream the Quran audio files. Each Para must be stopped before a new one can be played.
+### Prayer Times
+Get accurate prayer times for your location or any city worldwide. The application provides a visual timeline and detailed information about prayer times.
+
+### Duas and Durood
+Access a comprehensive collection of duas and durood shareef with Arabic text, transliteration, and translations in both English and Urdu.
+
+### Naats Collection
+Listen to beautiful naats from various reciters in different languages with embedded audio players.
+
+### Asma Al-Husna & Names of Muhammad
+Explore the 99 names of Allah and the beautiful names of Prophet Muhammad ﷺ with detailed descriptions and meanings.
 
 ## 👨‍💻 About the Developer
 
-Created by Riaz Hussain Saifi, a senior student who developed this app for Ramadan 1446 Hijri to help those who cannot read to benefit from the Quran's teachings. The developer kindly requests you to remember his parents in your prayers.
+Developed by Riaz Hussain Saifi, a passionate developer dedicated to creating useful Islamic applications. Connect with the developer on [LinkedIn](https://www.linkedin.com/in/riaz-hussain-saifi).
 
-## 🤝 How to Contribute
+## 🤝 Contributing
 
 Contributions are welcome! If you'd like to improve this app:
 
@@ -71,16 +76,6 @@ Contributions are welcome! If you'd like to improve this app:
 4. Commit your changes (`git commit -m 'Add some improvement'`)
 5. Push to the branch (`git push origin feature/improvement`)
 6. Open a Pull Request
-
-## 📋 Project Structure
-
-```
-Python-Quran-App/
-├── main.py             # Main Streamlit application
-├── pyproject.toml      # Project dependencies
-├── README.md           # Project documentation
-└── requirements.txt    # Dependency list for pip
-```
 
 ## 📱 Screenshots
 
@@ -92,7 +87,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- Sheikh Mishary Rashid Alafasy for the beautiful Quran recitation
-- Molana Muhammad Taqi Usmani for the Urdu translation
-- Hafiz Afzal Mishtiaq for the Urdu narration
+- [Alquran.cloud API](https://alquran.cloud/api) for Quran data
+- [Aladhan API](https://aladhan.com/prayer-times-api) for prayer times data
+- Various contributors for naats, duas, and other Islamic content
 - Streamlit for making the development of this app possible
